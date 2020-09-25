@@ -39,7 +39,4 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
-    $("#yearsOld", function () {
-        $('#yearsOld').html(new Date(new Date() - new Date('1999/10/27')).getFullYear() - 1970);
-    });
 })(jQuery); // End of use strict
